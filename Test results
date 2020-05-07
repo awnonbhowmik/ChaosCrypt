@@ -1,0 +1,156 @@
+Using loop      Using log       Using string    	Fastest
+1974            6096            1414                    string
+1098            1142            983                     string
+678             907             903                     loop
+778             863             806                     loop
+660             771             821                     loop
+620             706             741                     loop
+728             715             728                     log
+686             691             665                     string
+815             794             765                     string
+866             748             774                     log
+958             735             679                     string
+949             737             665                     string
+828             727             687                     string
+995             821             743                     string
+1074            815             693                     string
+908             695             704                     log
+919             731             748                     log
+1017            786             691                     string
+1006            724             701                     string
+1101            761             767                     log
+1072            739             718                     string
+1213            988             958                     string
+1144            820             799                     string
+1312            758             825                     log
+1300            810             760                     string
+1193            787             740                     string
+1187            786             844                     log
+1154            798             729                     string
+1200            725             706                     string
+1642            1155            806                     string
+1599            920             797                     string
+1338            796             816                     log
+P(loop) = 4/32  P(log) = 8/32   P(string) = 20/32
+
+"""Probabilities check out fine"""
+
+===================================================================
+Enter four-digit starting seed:1729
+Optional parameters...
+
+Using Linear Congruential Generator as a safety net,
+so that the sequence doesn't converge to zero
+
+Equation: X(n+1) = (a x(n) + b) mod m
+Enter a:113
+Enter b:697
+Enter modulo m (preferably large positive integer):65536
+9894
+8912
+4237
+9521
+6494
+1720
+9584
+8530
+7609
+8968
+4250
+625
+3906
+2568
+5946
+3549
+5954
+4501
+2590
+7081
+1405
+9740
+8676
+2729
+4474
+166
+275
+756
+5715
+6612
+7185
+6242
+9625
+6406
+368
+1354
+8333
+4388
+2545
+4770
+7529
+6858
+321
+1030
+609
+3708
+7492
+1300
+6900
+6100
+2100
+4100
+8100
+6100
+
+"""So far so good"""
+===================================================================
+Enter four-digit starting seed:4875
+Optional parameters...
+
+Using Linear Congruential Generator as a safety net,
+so that the sequence doesn't converge to zero
+
+Equation: X(n+1) = (a x(n) + b) mod m
+Enter a:113
+Enter b:-1
+try using positive integers for b.
+
+Enter b:0
+b has to be non-zero to increase chances of sequence converging to 0.
+
+Enter b:59
+Enter modulo m (preferably large positive integer):65536
+7656
+6143
+7364
+2284
+2166
+6915
+8172
+7815
+742
+5505
+3050
+3025
+1506
+2680
+1824
+3269
+6863
+1007
+140
+196
+384
+1474
+1726
+9790
+8441
+2504
+2700
+2900
+4100
+8100
+6100
+2100
+4100
+
+Length of sequence: 33
