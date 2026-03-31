@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated output / artefacts
+*.png
+Test results
+
+# Downloaded template archives
+*.zip
+
+# Paper directory (LaTeX source, PDFs, zip — managed separately)
+paper/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Editor / OS
+.DS_Store
+*.swp
